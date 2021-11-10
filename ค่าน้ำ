@@ -1,0 +1,305 @@
+# โค้ดคำนวณค่าน้ำ
+water = float(input('ปริมาณน้ำที่่ใช้:'))
+meter = input('ขนาดมาตรวัดน้ำ:')
+tax = (7/100)
+D = (10.20)
+E = (16.00)
+F = (19.00)
+G = (21.20)
+print ('ขนาดมาตรวัดน้ำ, %s' %meter,"นิ้ว") 
+if water > 0 and water < 11: 
+  if meter == "1/2":
+    A= (water*D)+30
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 10 and water < 21: 
+  if meter == "1/2":
+    A= (water*E)+30
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 20 and water < 31: 
+  if meter == "1/2":
+    A= (water*F)+30
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 30 and water < 50: 
+  if meter == "1/2":
+    A= (water*G)+30
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 0 and water < 11: 
+  if meter == "3/4":
+    A= (water*D)+50
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 10 and water < 21: 
+  if meter == "3/4":
+    A= (water*E)+50
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 20 and water < 31: 
+  if meter == "3/4":
+    A= (water*F)+50
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 30 and water < 50: 
+  if meter == "3/4":
+    A= (water*G)+50
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 0 and water < 11: 
+  if meter == "1":
+    A= (water*D)+60
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 10 and water < 21: 
+  if meter == "1":
+    A= (water*E)+60
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 20 and water < 31: 
+  if meter == "1":
+    A= (water*F)+60
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 30 and water < 50: 
+  if meter == "1":
+    A= (water*G)+60
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 0 and water < 11: 
+  if meter == "2":
+    A= (water*D)+350
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 10 and water < 21: 
+  if meter == "2":
+    A= (water*E)+350
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 20 and water < 31: 
+  if meter == "2":
+    A= (water*F)+350
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 30 and water < 51: 
+  if meter == "2":
+    A= (water*G)+350
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")    
+if water > 0 and water < 11: 
+  if meter == "2":
+    A= (water*D)+350
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 10 and water < 21: 
+  if meter == "2":
+    A= (water*E)+350
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 20 and water < 31: 
+  if meter == "2":
+    A= (water*F)+350
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 30 and water < 51: 
+  if meter == "2":
+    A= (water*G)+350
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")    
+if water > 0 and water < 11: 
+  if meter == "2.5":
+    A= (water*D)+450
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 10 and water < 21: 
+  if meter == "2.5":
+    A= (water*E)+450
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 20 and water < 31: 
+  if meter == "2.5":
+    A= (water*F)+450
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 30 and water < 51: 
+  if meter == "2.5":
+    A= (water*G)+450
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 0 and water < 11: 
+  if meter == "3":
+    A= (water*D)+450
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 10 and water < 21: 
+  if meter == "3":
+    A= (water*E)+450
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 20 and water < 31: 
+  if meter == "3":
+    A= (water*F)+450
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 30 and water < 51: 
+  if meter == "3":
+    A= (water*G)+450
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 0 and water < 11: 
+  if meter == "4":
+    A= (water*D)+450
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 10 and water < 21: 
+  if meter == "4":
+    A= (water*E)+450
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 20 and water < 31: 
+  if meter == "4":
+    A= (water*F)+450
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 30 and water < 51: 
+  if meter == "4":
+    A= (water*G)+450
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 0 and water < 11: 
+  if meter == "6":
+    A= (water*D)+950
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 10 and water < 21: 
+  if meter == "6":
+    A= (water*E)+950
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 20 and water < 31: 
+  if meter == "6":
+    A= (water*F)+950
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 30 and water < 51: 
+  if meter == "6":
+    A= (water*G)+950
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
+if water > 30 and water < 51: 
+  if meter == "8" :
+    A= (water*G)+1200
+    B= (A)*tax
+    C= B+A       
+    print ('ราคาไม่รวมภาษี, %s' %A,"บาท")
+    print ('ราคาภาษี, %s' %B,"บาท")
+    print ('ราคารวมทั้งหหมด, %s' %C,"บาท")
