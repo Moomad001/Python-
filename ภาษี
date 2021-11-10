@@ -1,4 +1,5 @@
 # โค้ดคำนวณภาษี
+# Python
 income = int(input('เงินได้รวมเงินเดือน:'))
 expenses = int(input('ค่าใช้จ่าย:'))
 discount = int(input('ค่าลดหย่อน:'))
