@@ -1,4 +1,4 @@
-# คำนวณ BMI
+# โค้ดคำนวณ BMI
 # Python
 W = float(input("ใส่น้ำหนักของคุณ "))
 H = float(input("ใส่ส่วนสูงของคุณ "))
